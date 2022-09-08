@@ -1,2 +1,2 @@
 #!/bin/bash
-find /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/action -maxdepth 1 -type d -print| wc -l
+echo $PATH|tr-s":"\n | wc -l
